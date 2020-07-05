@@ -53,16 +53,15 @@
                 />
 
             <TextView
+                android:id="@+id/init_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TEXT GOES HERE"
-                android:layout_toRightOf="@id/init_progress"
-                android:layout_toEndOf="@id/init_progress"
-                android:id="@+id/init_text"
                 android:layout_centerHorizontal="true"
+                android:layout_toEndOf="@id/init_progress"
+                android:layout_toRightOf="@id/init_progress"
+                android:text="A Iniciar por favor aguarde..."
                 android:textColor="@color/textColor"
-                android:textSize="@dimen/text"
-                />
+                android:textSize="@dimen/text" />
         </RelativeLayout>
 
         <RelativeLayout
